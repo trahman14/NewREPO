@@ -36,7 +36,7 @@ public class employeeData {
 			System.out.println(rs.getInt(0)+ rs.getInt(1)+rs.getString("EMPLOYEE_ID")+rs.getString("FIRST_NAME")+ rs.getString("LAST_NAME")); 
 		}
 			
-		con.close();	
+		con.close();	 //close connection
 		
 	}
 }
